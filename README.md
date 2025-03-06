@@ -1,7 +1,10 @@
 # Installing Fedore CoreOS using localhost ign file
 
 ## At Local Linux PC
-1. Prepare ignition ign file in local Linux PC, please it in target directory, for example fcos.ign
+1. Prepare ignition ign file in local Linux PC, please it in target directory, for example see fcos.ign
+- Replace the IP and Gateway IP
+- Replace the interface name enp0s3 
+   
 2. Go to target directory and start simple http server using python
   ```
   sudo python3 -m http.server 80
