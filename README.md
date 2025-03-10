@@ -10,6 +10,8 @@
   sudo python3 -m http.server 80
   ```
 
+During installation Fedora CoroeOS machine will try to reach out to the ign file stored in local PC using http because we just created a simple-ad-hoc http server on local PC. 
+
 ## At Fedora CoreOS machine
 1. Boot the Fedore CoreOS machine and install the liveCD using this command
 
